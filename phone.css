@@ -1,0 +1,28 @@
+
+#navigation
+{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+#navigation::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    /* z-index: -1; */
+    opacity: 0.3;
+    }
+
+    #iim{
+    
+        flex-direction: column;
+    
+    }
+    
