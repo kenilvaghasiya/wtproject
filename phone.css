@@ -2,7 +2,7 @@
 #navigation
 {
     display: flex;
-    position: fixed;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,21 @@
     /* z-index: -1; */
     opacity: 0.3;
     }
+
+#navigation ul{
+        list-style-type: none;
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        }
+
+
+#navigation ul li{
+            z-index: 1;
+             padding-top: 16px;
+             font-size: 23px;
+             
+             }
 
     #iim{
     
