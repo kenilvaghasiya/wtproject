@@ -68,16 +68,26 @@ display: flex;
     
     }
 a:link{
-    color:white;
+    color:whitesmoke;
     background-color: transparent;
     text-decoration: none;
   }
-}
 
-#navigation ul li:hover{
+  a:visited{
+    color:whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+
+
+
+#navigation ul li a:hover{
   
         background-color:gray;
         border-radius: 20px;
+        padding: 10px;
         /* font-size: 30px; */
         box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
